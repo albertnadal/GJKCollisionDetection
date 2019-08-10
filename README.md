@@ -11,3 +11,7 @@ Build
 =========================================
 make<br/>
 ./main
+
+Shapes used in the sample code
+=========================================
+![Visualization](https://raw.githubusercontent.com/albertnadal/GJKCollisionDetection/master/sample-drawing.png)
