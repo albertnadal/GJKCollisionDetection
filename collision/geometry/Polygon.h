@@ -17,6 +17,7 @@ class Polygon
     Polygon(initializer_list<collision::vec2<float>> points);
     Polygon(collision::vec2<float> center, initializer_list<collision::vec2<float>> points);
     const collision::vec2<float> &getCenter() const;
+    const void applyPadding(const float padding);
     const collision::vec2<float> getFarthestPoint(const collision::vec2<float> direction, const Transform2 &transform) const;
 
   private:
